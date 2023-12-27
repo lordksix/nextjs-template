@@ -13,7 +13,11 @@
       "error",
       {
         "endOfLine": "lf",
-        "singleQuote": true
+        "singleQuote": true,
+        "jsxSingleQuote": true,
+        "quoteProps": "as-needed",
+        "bracketSpacing": true,
+        "bracketSameLine": false
       }
     ]
   },

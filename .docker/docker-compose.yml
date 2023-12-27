@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: nextjs_container
+    build:
+      context: ../
+      target: production
+      dockerfile: Dockerfile
+    restart: always
+    image: nextjs_container
+    volumes:
+      - ../:/app/
+        - /app/node_modules
+        - /app/.next
+
+    ports:
+      - "3000:3000"
+
+networks:
+  "APP":
