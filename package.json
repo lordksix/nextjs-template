@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "eslint . --fix",
+    "lint:strict": "eslint --max-warnings=0 src",
     "test": "jest",
     "test:c": "jest --coverage",
     "test:w": "jest --watch",

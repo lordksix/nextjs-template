@@ -14,7 +14,7 @@
       {
         "endOfLine": "lf",
         "singleQuote": true,
-        "jsxSingleQuote": true,
+        "jsxSingleQuote": false,
         "quoteProps": "as-needed",
         "bracketSpacing": true,
         "bracketSameLine": false

@@ -2,7 +2,7 @@
   "singleQuote": true,
   "trailingComma": "none",
   "endOfLine": "lf",
-  "jsxSingleQuote": true,
+  "jsxSingleQuote": false,
   "quoteProps": "as-needed",
   "bracketSpacing": true,
   "bracketSameLine": false
