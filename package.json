@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --coverage",
+    "test:w": "jest --watch",
+    "lint-staged": "lint-staged",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit && echo ",
+    "prepare": "husky install",
+    "start:azure": "node server"
   },
   "dependencies": {
     "next": "14.0.4",
