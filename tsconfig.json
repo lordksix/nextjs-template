@@ -24,10 +24,11 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts", "**/*.tsx",
+    "**/*.ts",
+    "**/*.tsx",
     ".next/types/**/*.ts",
     "tailwind.config.js",
-    "jest.config.js",
+    "../jest.config.js",
     "jest.setup.js",
     "next.config.js",
     "postcss.config.js",

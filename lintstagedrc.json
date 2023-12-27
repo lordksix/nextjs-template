@@ -1,8 +1,0 @@
-{
-  "**/*.ts?(x)": ["prettier --write", "eslint --quiet --fix"],
-  "**/*.(ts)?(x)": "npm run type-check",
-  "./*.md": ["prettier --write"],
-  "*.{json,html}": [
-    "prettier --write --ignore-unknown"
-  ]
-}
