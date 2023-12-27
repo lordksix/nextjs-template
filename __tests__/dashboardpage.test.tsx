@@ -2,7 +2,7 @@ import Home from '@/app/page';
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 
-describe.skip('Dashboard Component Render', () => {
+describe('Main Page Component Render', () => {
   it('should render properly', () => {
     render(<Home />);
     const myText: HTMLElement = screen.getByText(/tsx/i);
