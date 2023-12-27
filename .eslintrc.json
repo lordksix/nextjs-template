@@ -13,23 +13,22 @@
       "error",
       {
         "endOfLine": "lf",
-        "singleQuote": true,
-
+        "singleQuote": true
       }
     ]
   },
   "env": {
-      "jest": true,
-      "browser": true,
-      "es2020": true,
-      "node": true
+    "jest": true,
+    "browser": true,
+    "es2020": true,
+    "node": true
   },
   "overrides": [
-      {
-          "files": ["**/*.tsx", "**/*.ts"],
-          "rules": {
-              "react/require-default-props": "off"
-          }
+    {
+      "files": ["**/*.tsx", "**/*.ts"],
+      "rules": {
+        "react/require-default-props": "off"
       }
-    ]
+    }
+  ]
 }
