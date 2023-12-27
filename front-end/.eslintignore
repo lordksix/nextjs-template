@@ -1,0 +1,9 @@
+docs/
+public/
+dist/
+node_modules/
+shared/
+jest.config.js
+jest.setup.js
+next.config.js
+postcss.config.js

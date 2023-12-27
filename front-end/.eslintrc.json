@@ -1,3 +1,35 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@next/next/recommended",
+    "eslint:recommended",
+    "plugin:testing-library/react",
+    "plugin:jest-dom/recommended",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "lf",
+        "singleQuote": true,
+
+      }
+    ]
+  },
+  "env": {
+      "jest": true,
+      "browser": true,
+      "es2020": true,
+      "node": true
+  },
+  "overrides": [
+      {
+          "files": ["**/*.tsx", "**/*.ts"],
+          "rules": {
+              "react/require-default-props": "off"
+          }
+      }
+    ]
 }
