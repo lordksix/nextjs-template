@@ -1,3 +1,5 @@
-# react-template
+# Nestjs Template
 
-Template to create a containerized React application
+## Instructions
+
+- Template to create a containerized Nextjs app with Husky, Prettier, Jest, and Eslist setup.
