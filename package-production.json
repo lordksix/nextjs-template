@@ -14,7 +14,6 @@
     "test:w": "jest --watch",
     "lint-staged": "lint-staged",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit && echo ",
-    "prepare": "husky install",
     "start:azure": "node server"
   },
   "dependencies": {
@@ -50,16 +49,9 @@
     "typescript": "^5.3.3"
   },
   "lint-staged": {
-    "**/*.ts?(x)": [
-      "prettier --write",
-      "eslint --quiet --fix"
-    ],
+    "**/*.ts?(x)": ["prettier --write", "eslint --quiet --fix"],
     "**/*.(ts)?(x)": "npm run type-check",
-    "./*.md": [
-      "prettier --write"
-    ],
-    "*.{json,html}": [
-      "prettier --write --ignore-unknown"
-    ]
+    "./*.md": ["prettier --write"],
+    "*.{json,html}": ["prettier --write --ignore-unknown"]
   }
 }
